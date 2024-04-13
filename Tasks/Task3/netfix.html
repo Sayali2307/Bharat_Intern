@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+
+        #parent {
+            height: 100%;
+            width: 100%;
+            border: 1px solid;
+            /* background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81d2d78ddce803/a76c1727-34da-4d80-99a3-69476e78860d/IN-en-20221228popsignuptwoweeks-perspective_alpha_website_medium.jpg) */
+            background-color: black;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* opacity: 0.2px black; */
+        }
+
+        #nav{
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+
+       #parent a:hover{
+            cursor: pointer;
+            background-color:green;
+        }
+
+        #child {
+            height: 700px;
+            width: 99%;
+            border: 1px solid;
+            margin: auto;
+        }
+
+        #watch {
+
+            font-size: 20px;
+            margin-left: 270px;
+            color: white;
+            /* color: black; */
+
+        }
+
+        #box {
+
+            margin-top: 50px;
+            margin-left: 300px;
+            display: flex;
+        }
+
+        input {
+            width: 300px;
+            height: 35px;
+            font-size: large;
+            /* border: 1px solid; */
+        }
+
+        /* input a{ 
+                    text-decoration: none;
+                    padding: 10px;
+                   padding-left: 10px;
+                  padding-right: 10px;
+         background-color: red;
+                   color: white;
+               } */
+        #start a {
+            text-decoration: none;
+            padding: 11px 22px 13px 22px;
+            background-color: red;
+            color: white;
+            margin-top: 100px;
+            align-items:flex-end;
+        }
+
+        #start {
+            margin-top: 10px;
+            margin-left: 5px;
+            /* margin: 0px; */
+        }
+
+        #main {
+            margin-top: 100px;
+        }
+
+        #tv {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            /* color: black; */
+        }
+
+        #cancel {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            /* color: black; */
+        }
+
+        select {
+            height: 36px;
+            width: 90px;
+            border: 2px solid white;
+            /* background-color: unset; */
+            /* color: white; */
+            margin-top: 20px;
+            /* margin-left: 1100px; */
+    
+        }
+
+        img {
+            height: 70px;
+            width: 150px;
+            border: 1px solid;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        #in {
+            height: 35px;
+            margin-left: 50px;
+            text-decoration: none;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: red;
+            color: white;
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- <img src="https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81d2d78ddce803/a76c1727-34da-4d80-99a3-69476e78860d/IN-en-20221228popsignuptwoweeks-perspective_alpha_website_medium.jpg"/> -->
+
+        <div id="parent">
+                
+            <div id="child">
+
+                <div id="nav">
+                    <select name="\" id="\">
+                        <i class="fa fa globe" aria-hidden="true"></i>
+                        <option value="\">English</option>
+
+                    </select>
+                    <a id="in" href="#">Sign-In</a>
+                </div>
+
+                <div id="main">
+                    <div id="tv">
+                        <b>Unlimited movies,TV shows <br> and more.</b>
+                    </div>
+                    <br>
+
+                    <div id="cancel">
+                        Watch anywhere. Cancel anytime.</div>
+                    <br>
+
+                    <div id="watch">
+                        Ready to watch? Enter your email to create or restart your membership</div>
+                </div>
+
+                <div id="box">
+                    <div id="input">
+                        <input type="email" name="\" id=" \" placeholder="Emailaddress">
+                    </div>
+                    <br>
+                    <div id="start">
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
